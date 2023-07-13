@@ -1,0 +1,18 @@
+.menu{
+    display: flex;
+    background-color: var(--color-primario);
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.principal {
+    text-align: left;
+    background-color: var(--color-cuarto);
+}
+
+@media (max-width:425px) {
+    .menu{
+        padding: 0.5rem 1rem;
+    }
+    
+}
